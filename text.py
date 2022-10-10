@@ -45,7 +45,7 @@ context = {
     'QR': '',
     'Front_image': InlineImage(doc, 'front.jpg', width=Inches(1.76), height=Inches(1.58)),
     'Back_image': InlineImage(doc, 'back.jpg', width=Inches(1.76), height=Inches(1.58)),
-    'Doc_image': InlineImage(doc, 'doc.png', width=Inches(1.76), height=Inches(1.58)),
+    'Doc_image': InlineImage(doc, 'doc.jpg', width=Inches(1.76), height=Inches(1.58)),
     'dealer_name': dealer.upper(),
     'lic_no': lic_no.upper()
 }
@@ -71,3 +71,6 @@ context['QR'] = InlineImage(
     doc, f'{filename}.png', width=Inches(0.91), height=Inches(0.91))
 doc.render(context)
 doc.save(f'out/{filename}.docx')
+# HCV
+# C3 a
+# ct dm
